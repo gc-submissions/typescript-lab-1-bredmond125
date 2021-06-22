@@ -1,5 +1,5 @@
 import { calcInventoryValue } from "../src/inventory";
-
+// can do describe.skip to skip all tests in the {}
 describe("calcInventoryValue", () => {
   test("three products", () => {
     const value: number = calcInventoryValue([
